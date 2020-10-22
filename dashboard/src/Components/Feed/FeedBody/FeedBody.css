@@ -1,0 +1,15 @@
+.filter_input_container{
+    border:0.2px solid  #d1d1d1;
+
+}
+
+.extraContent{
+    padding:10px;
+    text-align:left;
+    color: #898989;
+    font-weight:400;
+    font-size:20px;
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+}

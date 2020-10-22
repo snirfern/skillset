@@ -1,0 +1,46 @@
+.feed_container{
+    position:absolute;
+    top:5%;
+    left:50%;
+    transform:translate(-50%);
+    border:1px solid;
+    min-width:600px;
+    max-width:600px;
+    min-height:250px;
+    border-color: #d1d1d1;
+    overflow-y:auto;
+
+}
+
+    
+    .input{
+        border :1px solid  #d1d1d1;
+    }
+    textarea{
+        width:90%;
+        padding:10px;
+        resize:none;
+        border-color :#d1d1d1;
+    }
+
+    .message
+    {
+        height:150px;
+    }
+    .feed_body_container
+    {
+        padding:10px 30px;   
+        max-height: 350px;
+    }
+
+    .spinner_container{
+        height: 100%;
+        background-color: white;
+        width: 100%;
+        z-index: 100000000;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        z-index: 222222222;
+        transform: translate(-50%,-50%);
+    }
